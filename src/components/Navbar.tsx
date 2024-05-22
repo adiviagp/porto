@@ -1,4 +1,5 @@
 import Container from '@components/Container';
+import { MyLogo } from '@src/assets/images';
 
 interface IMenu {
   id: string;
@@ -33,7 +34,7 @@ const Navbar = (): JSX.Element => {
   return (
     <header className="fixed left-0 top-0 z-50 w-full border-b border-gray-900/20 backdrop-blur-xl">
       <Container className="flex h-16 items-center font-sans text-gray-900">
-        <img alt="logo" src="/images/adiviagplogo.png" width={90} />
+        <img alt="logo" src={MyLogo} width={90} />
 
         <nav className="ml-20 hidden md:block">
           <ul className="flex space-x-10 text-sm font-medium uppercase text-gray-900">

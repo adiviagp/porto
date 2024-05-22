@@ -1,36 +1,47 @@
+import {
+  ExpressLogo,
+  JestLogo,
+  JSLogo,
+  QueryLogo,
+  ReactLogo,
+  ReduxLogo,
+  TailwindLogo,
+  TypescriptLogo,
+} from '@src/assets/images';
+
 export const stackList = [
   {
     title: 'Javascript',
-    img: '/images/tech/js.png',
+    img: JSLogo,
   },
   {
     title: 'React',
-    img: '/images/tech/react.png',
+    img: ReactLogo,
   },
   {
     title: 'React Query',
-    img: '/images/tech/query.png',
+    img: QueryLogo,
   },
   {
     title: 'Redux',
-    img: '/images/tech/redux.png',
+    img: ReduxLogo,
   },
   {
     title: 'Typescript',
-    img: '/images/tech/ts.png',
+    img: TypescriptLogo,
   },
 
   {
     title: 'Express.js',
-    img: '/images/tech/express.png',
+    img: ExpressLogo,
   },
   {
     title: 'Tailwind',
-    img: '/images/tech/tailwind.png',
+    img: TailwindLogo,
   },
 
   {
     title: 'Jest',
-    img: '/images/tech/jest.png',
+    img: JestLogo,
   },
 ];

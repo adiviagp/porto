@@ -1,4 +1,5 @@
 import Container from '@components/Container';
+import { MyPhoto } from '@src/assets/images';
 
 const Hero = (): JSX.Element => {
   return (
@@ -23,7 +24,7 @@ const Hero = (): JSX.Element => {
         </div>
         <div className="hidden w-2/4 justify-center md:flex">
           <div className="w-[300px]">
-            <img src="/images/adiviagp.jpg" alt="adiviagp" />
+            <img src={MyPhoto} alt="adiviagp" />
           </div>
         </div>
       </Container>

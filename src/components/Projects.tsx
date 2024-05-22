@@ -1,5 +1,13 @@
 import ProjectItem from '@components/ProjectItem';
 import Container from '@components/Container';
+import {
+  BFIDashboardImg,
+  FramerImg,
+  LedgerAPIImg,
+  LedgerUIImg,
+  MitraTokopediaImg,
+  Pokedeximg,
+} from '@src/assets/images';
 
 export interface IData {
   projectType: string;
@@ -19,7 +27,7 @@ const data: IData[] = [
       'The BFI CMS is designed to digitalize the manual process of document validation and approval. It provides a streamlined workflow for document approval and ensures the integrity and accuracy of the process. Additionally, the app includes unit tests to maintain code quality and reliability. The app is built using React.js, Redux for state management, and Jest for unit testing.',
     tech: ['React', 'Redux', 'Material UI', 'Jest'],
     url: null,
-    img: '/images/projects/bfi-dashboard.png',
+    img: BFIDashboardImg,
     github: null,
   },
   {
@@ -28,7 +36,7 @@ const data: IData[] = [
     description:
       'The General Ledger Dashboard app is designed to provide users with a comprehensive and interactive interface for managing accounting journals and generating general ledger reports. The app ensures efficient data handling and a user-friendly experience through its dynamic dashboard UI. Built using React.js and React Query, the app offers a robust and responsive solution for financial management.',
     tech: ['React', 'Tailwind', 'React Query', 'Zustand'],
-    img: '/images/projects/ledger.png',
+    img: LedgerUIImg,
     url: 'https://test-fe.akuntansi-agp.com/',
     github: 'https://github.com/adiviagp/general-ledger-public',
   },
@@ -38,7 +46,7 @@ const data: IData[] = [
     description:
       'The General Ledger API is designed to manage accounting journals and generate financial reports in Excel format. This API provides a comprehensive solution for handling CRUD operations on accounting journal entries and generating detailed ledger reports. Built using Node.js and Express.js, the API ensures robust performance and scalability.',
     tech: ['Node.js', 'Express.js'],
-    img: '/images/projects/ledger-api.png',
+    img: LedgerAPIImg,
     url: null,
     github: 'https://github.com/adiviagp/general-ledger-api',
   },
@@ -49,7 +57,7 @@ const data: IData[] = [
       'The Pokedex app is designed to provide users with an interactive experience where they can view a list of Pokémon, catch Pokémon with a certain probability, and display the Pokémon they own. The app is built using React.js, React Query, and GraphQL, ensuring a dynamic and responsive user interface with efficient data fetching and state management.',
     tech: ['Jquery', 'Bootstrap'],
     url: null,
-    img: '/images/projects/pokedex.png',
+    img: Pokedeximg,
     github: 'https://github.com/adiviagp/pokemon',
   },
   {
@@ -59,7 +67,7 @@ const data: IData[] = [
       'creation of scroll-triggered animations that enhance the visual appeal and interactivity of web pages. Framer Motion is used to animate elements as they come into the viewport during scrolling, providing a seamless and engaging user experience.',
     tech: ['Jquery', 'Bootstrap'],
     url: null,
-    img: '/images/projects/framer.png',
+    img: FramerImg,
     github: 'https://github.com/adiviagp/scroll-framer',
   },
   {
@@ -69,7 +77,7 @@ const data: IData[] = [
       'The UI clone mimics the design and layout of the Mitra Tokopedia platform. It includes essential components and pages, ensuring a visually similar and user-friendly experience. Tailwind CSS is used for styling, enabling rapid development with utility-first CSS classes.',
     tech: ['React', 'Tailwind'],
     url: null,
-    img: '/images/projects/mitratokopedia.png',
+    img: MitraTokopediaImg,
     github: 'https://github.com/adiviagp/mitratokopedia_react_tailwind',
   },
 ];

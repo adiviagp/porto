@@ -1,4 +1,5 @@
 import Container from '@components/Container';
+import { MyLogo } from '@src/assets/images';
 
 const Footer = (): JSX.Element => {
   return (
@@ -6,8 +7,8 @@ const Footer = (): JSX.Element => {
       <Container className="flex h-16 items-center items-center justify-between border-b border-gray-900/20 pb-12 font-sans text-gray-900">
         {/* <h1>Adiviagp</h1> */}
         <img
-          src="/images/adiviagplogo.png"
-          alt=""
+          src={MyLogo}
+          alt="mylogo"
           width={200}
           className="hidden md:block"
         />
