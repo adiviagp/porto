@@ -5,7 +5,7 @@ const Hero = (): JSX.Element => {
   return (
     <div id="home">
       <Container className=" mt-16 flex items-center py-20 md:min-h-[600px]">
-        <div className="w-2/4">
+        <div className="w-full md:w-2/4">
           <h1 className="leading-16 font-sans font-bold md:text-5xl">
             Hey There!, I'm <br />
             Adivia Gilang Prakarsa
@@ -22,7 +22,7 @@ const Hero = (): JSX.Element => {
             <a href="mailto:adivia93@gmail.com">Email</a>
           </div>
         </div>
-        <div className="hidden w-2/4 justify-center md:flex">
+        <div className="hidden justify-center md:flex md:w-2/4">
           <div className="w-[300px]">
             <img src={MyPhoto} alt="adiviagp" />
           </div>

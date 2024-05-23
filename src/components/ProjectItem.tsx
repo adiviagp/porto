@@ -45,10 +45,10 @@ const ProjectItem = ({
 
       {align === 'Right' ? (
         <div className="relative flex items-center">
-          <div className="w-2/4 shadow-md">
+          <div className="hidden shadow-md md:block md:w-2/4">
             <img src={data?.img} alt="" className="w-full" />
           </div>
-          <div className="absolute right-0 w-[60%] text-right">
+          <div className="right-0 w-full text-right md:absolute md:w-[60%]">
             <h2 className="text-sm">{data?.projectType}</h2>
             <h1 className="text-3xl font-bold ">{data?.title}</h1>
             <div className="my-6 w-full bg-slate-50">

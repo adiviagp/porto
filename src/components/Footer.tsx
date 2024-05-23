@@ -20,8 +20,7 @@ const Footer = (): JSX.Element => {
       <Container className="p-12 pt-3 text-center text-gray-800">
         <h3 className="text-sm">Copyright © 2024 Adivia Gilang Prakarsa</h3>
         <h4 className="text-sm">
-          Built from scratch using React, TypeScript, Tailwind CSS and hosted on
-          CloudFlare Pages.
+          Built from scratch using React, TypeScript, and Tailwind CSS
         </h4>
       </Container>
     </>

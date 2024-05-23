@@ -27,11 +27,14 @@ const TechStack = (): JSX.Element => {
           </span>
         </label>
         {checked ? (
-          <ul className="mt-12 flex flex-wrap justify-center gap-10">
+          <ul className="mt-12 flex flex-wrap justify-between gap-6 md:justify-center md:gap-10">
             {stackList.map((stack, index) => (
-              <li key={index} className="flex w-1/5 items-center space-x-4">
-                <img src={stack.img} alt="title" width={50} />
-                <p className="font-sans text-xl">{stack.title}</p>
+              <li
+                key={index}
+                className="flex w-1/3 items-center space-x-4 md:w-1/5"
+              >
+                <img src={stack.img} alt="title" className="w-10" />
+                <p className="font-sans text-sm md:text-xl">{stack.title}</p>
               </li>
             ))}
           </ul>
