@@ -28,7 +28,11 @@ const ProjectItem = ({
                 ))}
               </ul>
               <div className="flex space-x-6">
-                {data?.github ? <GithubIcon className="h-5 w-5" /> : null}
+                {data?.github ? (
+                  <a href={data?.github} target="_blank">
+                    <GithubIcon className="h-5 w-5" />
+                  </a>
+                ) : null}
                 {data?.url ? (
                   <a href={data?.url} target="_blank">
                     <UrlIcon className="h-5 w-5" />
@@ -63,7 +67,11 @@ const ProjectItem = ({
                 ))}
               </ul>
               <div className="flex justify-end space-x-6">
-                {data?.github ? <GithubIcon className="h-5 w-5" /> : null}
+                {data?.github ? (
+                  <a href={data?.github} target="_blank">
+                    <GithubIcon className="h-5 w-5" />
+                  </a>
+                ) : null}
                 {data?.url ? (
                   <a href={data?.url} target="_blank">
                     <UrlIcon className="h-5 w-5" />

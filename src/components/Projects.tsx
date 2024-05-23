@@ -56,7 +56,7 @@ const data: IData[] = [
     description:
       'The Pokedex app is designed to provide users with an interactive experience where they can view a list of Pokémon, catch Pokémon with a certain probability, and display the Pokémon they own. The app is built using React.js, React Query, and GraphQL, ensuring a dynamic and responsive user interface with efficient data fetching and state management.',
     tech: ['Jquery', 'Bootstrap'],
-    url: null,
+    url: 'https://pokemon-lyart-theta.vercel.app/',
     img: Pokedeximg,
     github: 'https://github.com/adiviagp/pokemon',
   },
@@ -65,7 +65,7 @@ const data: IData[] = [
     title: 'Framer',
     description:
       'creation of scroll-triggered animations that enhance the visual appeal and interactivity of web pages. Framer Motion is used to animate elements as they come into the viewport during scrolling, providing a seamless and engaging user experience.',
-    tech: ['Jquery', 'Bootstrap'],
+    tech: ['Next Js', 'Framer'],
     url: null,
     img: FramerImg,
     github: 'https://github.com/adiviagp/scroll-framer',
