@@ -51,13 +51,6 @@ const Navbar = (): JSX.Element => {
             {/* <SunIcon /> */}
           </div>
           <a
-            href="/adivia-cv.pdf"
-            download
-            className="cursor-pointer rounded-xl px-4 py-1 text-xs transition-colors hover:bg-slate-100 md:text-sm"
-          >
-            resume
-          </a>
-          <a
             href="mailto:adivia93@gmail.com"
             className="cursor-pointer rounded-xl bg-green-800 px-4 py-1 text-xs text-slate-200 transition-colors hover:bg-green-700 md:text-sm"
           >
