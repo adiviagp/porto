@@ -55,7 +55,7 @@ const data: IData[] = [
     title: 'Pokedex',
     description:
       'The Pokedex app is designed to provide users with an interactive experience where they can view a list of Pokémon, catch Pokémon with a certain probability, and display the Pokémon they own. The app is built using React.js, React Query, and GraphQL, ensuring a dynamic and responsive user interface with efficient data fetching and state management.',
-    tech: ['Jquery', 'Bootstrap'],
+    tech: ['React', 'React Query', 'GraphQL'],
     url: 'https://pokemon-lyart-theta.vercel.app/',
     img: Pokedeximg,
     github: 'https://github.com/adiviagp/pokemon',

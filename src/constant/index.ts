@@ -1,12 +1,16 @@
 import {
+  BootstrapLogo,
   ExpressLogo,
   JestLogo,
   JSLogo,
+  NuxtLogo,
   QueryLogo,
   ReactLogo,
   ReduxLogo,
+  SassLogo,
   TailwindLogo,
   TypescriptLogo,
+  VueLogo,
 } from '@src/assets/images';
 
 export const stackList = [
@@ -19,9 +23,10 @@ export const stackList = [
     img: ReactLogo,
   },
   {
-    title: 'React Query',
-    img: QueryLogo,
+    title: 'Vue',
+    img: VueLogo,
   },
+
   {
     title: 'Redux',
     img: ReduxLogo,
@@ -32,16 +37,31 @@ export const stackList = [
   },
 
   {
-    title: 'Express.js',
-    img: ExpressLogo,
+    title: 'Nuxt',
+    img: NuxtLogo,
   },
   {
     title: 'Tailwind',
     img: TailwindLogo,
   },
-
+  {
+    title: 'React Query',
+    img: QueryLogo,
+  },
   {
     title: 'Jest',
     img: JestLogo,
+  },
+  {
+    title: 'Sass',
+    img: SassLogo,
+  },
+  {
+    title: 'Express.js',
+    img: ExpressLogo,
+  },
+  {
+    title: 'Bootstrap',
+    img: BootstrapLogo,
   },
 ];

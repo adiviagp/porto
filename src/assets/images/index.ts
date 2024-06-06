@@ -21,6 +21,8 @@ import ReduxLogo from './tech/redux.png';
 import SassLogo from './tech/sass.png';
 import TailwindLogo from './tech/tailwind.png';
 import TypescriptLogo from './tech/ts.png';
+import NuxtLogo from './tech/nuxt.png';
+import VueLogo from './tech/vue.png';
 
 export {
   MyPhoto,
@@ -45,4 +47,6 @@ export {
   SassLogo,
   TailwindLogo,
   TypescriptLogo,
+  VueLogo,
+  NuxtLogo,
 };
